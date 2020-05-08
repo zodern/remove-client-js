@@ -1,6 +1,6 @@
 Package.describe({
   name: 'zodern:remove-client-js',
-  description: 'Minifier that removes client js',
+  summary: 'Minifier that removes client js',
   version: '1.0.0',
   documentation: './readme.md',
   git: 'https://github.com/zodern/remove-client-js.git'
