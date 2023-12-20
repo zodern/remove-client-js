@@ -9,7 +9,7 @@ Plugin.registerMinifier({
 class Minifier {
   processFilesForBundle(files) {
     const toBeAdded = {
-      data: "function empty () {}",
+      data: "// client code removed by zodern:remove-client-js\nfunction empty () {}",
       stats: Object.create(null)
     };
 
